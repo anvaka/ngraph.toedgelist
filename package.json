@@ -4,7 +4,7 @@
   "description": "Save ngraph.graph into edge list",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tap test/*.js"
   },
   "keywords": [
     "ngraph",
@@ -15,5 +15,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/anvaka/ngraph.toedgelist"
+  },
+  "devDependencies": {
+    "ngraph.graph": "0.0.10",
+    "tap": "^0.7.1"
   }
 }

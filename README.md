@@ -1,6 +1,6 @@
-# ngraph.toedgelist
+# ngraph.toedgelist [![Build Status](https://travis-ci.org/anvaka/ngraph.toedgelist.svg)](https://travis-ci.org/anvaka/ngraph.toedgelist)
 
-Save ngraph.graph into edge list
+Save [ngraph.graph](https://github.com/anvaka/ngraph.graph) into edge list.
 
 # usage
 

@@ -47,6 +47,23 @@ test('string form has comments', function(t) {
   t.end();
 });
 
+test('it saves graph into set', function(t) {
+  var graph = createGraph();
+  graph.addLink('c', 'c++');
+  graph.addLink('c', 'js');
+  graph.addLink('js', 'coffee');
+
+  var set = toEdgesList.asSet(graph);
+  var labels = set.labels;
+  var edgeList = set.edgeList;
+
+  t.ok(hasElement(edgeList, edge([labels.c, labels['c++']])), 'c->c++ is here');
+  t.ok(hasElement(edgeList, edge([labels.c, labels.js])), 'c->js is here');
+  t.ok(hasElement(edgeList, edge([labels.js, labels.coffee])), 'js->coffee is here');
+
+  t.end();
+});
+
 function edge(e) {
   return function(x) {
     return x[0] === e[0] && x[1] === e[1];

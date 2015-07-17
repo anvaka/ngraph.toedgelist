@@ -1,6 +1,6 @@
 {
   "name": "ngraph.toedgelist",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Save ngraph.graph into edge list",
   "main": "index.js",
   "scripts": {

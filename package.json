@@ -17,7 +17,7 @@
     "url": "https://github.com/anvaka/ngraph.toedgelist"
   },
   "devDependencies": {
-    "ngraph.graph": "0.0.10",
+    "ngraph.graph": "0.0.11",
     "tap": "^0.7.1"
   }
 }

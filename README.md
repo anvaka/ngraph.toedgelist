@@ -17,6 +17,8 @@ var edgeList = toEdgeList(graph);
 
 Now `edgeList` is equal to `[ [ 1, 2 ], [ 1, 3 ], [ 2, 4 ] ]`.
 
+## Edge list as a string
+
 You can also save edge list as string:
 
 ``` js
